@@ -10931,7 +10931,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #0d6efd; /* COLOR MENU HOVER*/
 }
 
 @media (min-width: 992px) {
@@ -10974,7 +10974,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/industrial.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
