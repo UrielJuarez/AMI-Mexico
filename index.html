@@ -408,7 +408,7 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form action="enviar.php" method="POST" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form action="enviar.php" method="post" id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -418,13 +418,13 @@
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input name="mail" class="form-control" id="email" type="email" placeholder="Tu Correo Electronico *" data-sb-validations="required,email" />
+                                <input name="mail" class="form-control" id="mail" type="text" placeholder="Tu Correo Electronico *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Un correo electronico es requerido.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Correo no valido.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Tu telefono *" data-sb-validations="required" />
+                                <input name="phone" class="form-control" id="subject" type="text" placeholder="Tu telefono *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">Un numero de telefono es requerido.</div>
                             </div>
                         </div>
