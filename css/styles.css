@@ -569,7 +569,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
+  height: 300px;
 }
 
 .img-thumbnail {
@@ -11045,6 +11046,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  height: 175px; /* SE AGREGO*/
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
