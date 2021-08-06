@@ -20,6 +20,8 @@ $asunto = 'Mensaje de la pagina AMI Mexico';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:index.html");
+echo'<script type="text/javascript">
+    alert("Mensaje enviado correctamente!");
+    </script>';
 ?>
 
