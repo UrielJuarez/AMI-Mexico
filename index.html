@@ -442,25 +442,53 @@
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar mensaje</button></div>
                 </form>-->
 
-                <div class="row">
-                    <div id="templatemo_contact" class="col-md-4 gallery-contact">
-                     </div>
-                    <div class="col-md-8 templatemo_contactform">                 
-                    <form action="enviar.php" method="post">
-                        <input type="text" name="name" placeholder="Nombre">
-                        <input type="text" name="company" placeholder="Empresa">
+                <div class="row" >
+     
+                    <div style="color: white; width: 50%; margin: auto;">  
 
-                        <input type="text" name="mail" placeholder="Correo">
-                        <input type="text" name="phone" placeholder="Telefono">
-                        <input type="text" name="city" placeholder="Cuidad o estado">
+                        <form action="enviar.php" method="post">
 
-                        <textarea name="message" placeholder="Mensaje ... "></textarea>
-                        <div class="col-md-8"> 
-                        <button type="submit" class="btn btn-primary">ENVIAR </button>
-                     </div>
-                     </form>
-                     </div>
+                            <div><h6 >Nombre:</h6></div>
+                            <div style="padding: 5px;">
+                                <input type="text" name="name" placeholder="Nombre"
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;">
+                            </div>
 
+                            <div><h6 >Empresa:</h6></div>
+                            <div style="padding: 5px;">
+                                <input type="text" name="company" placeholder="Empresa"
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;">
+                            </div>
+
+                            <div><h6 >Correo:</h6></div>
+                            <div style="padding: 5px;">
+                                <input type="email" name="mail" placeholder="Correo"
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;">
+                            </div>
+
+                            <div><h6 >Teléfono:</h6></div>
+                            <div style="padding: 5px;">
+                                <input type="number" name="phone" placeholder="Teléfono"
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;">
+                            </div>
+
+                            <div><h6 >Ciudad:</h6></div>
+                            <div style="padding: 5px;">
+                                <input type="text" name="city" placeholder="Ciudad"
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;">
+                            </div>
+                            
+                            <div><h6 >Mensaje:</h6></div>
+                            <div style="padding: 5px;">
+                                <textarea name="message" placeholder="Mensaje ... " rows="4" 
+                                style="border: 2px solid #005aff; padding: 10px; border-radius: 10px; width: 100%;"></textarea>
+                            </div>
+                            <div style="text-align: center;"> 
+                                <button type="submit" class="btn btn-primary">ENVIAR </button>
+                            </div>
+                        </form>
+                     </div>
+                </div>
 
             </div>
         </section>
