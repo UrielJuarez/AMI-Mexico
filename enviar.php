@@ -17,7 +17,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n" . "De la ciudad: " . $c
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'ujjuarezr@gmail.com';
+$para = 'info@amimexico.com.mx';
 $asunto = 'Mensaje de la pagina AMI Mexico';
 
 mail($para, $asunto, utf8_decode($message), $header);
