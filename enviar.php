@@ -1,7 +1,7 @@
 <?php
 $name = $_POST['name'];
 $company = $_POST['company'];
-$company = $_POST['cargopuesto'];
+$cargopuesto = $_POST['cargopuesto'];
 $mail = $_POST['mail'];
 $phone = $_POST['phone'];
 $city = $_POST['city'];
